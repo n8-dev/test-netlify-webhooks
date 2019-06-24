@@ -10,9 +10,21 @@ const IndexPage = () => (
         <SEO title="Home"/>
         <Clock/>
 
-        <StaticClock date={new Date()}/>
+        <StaticClock />
     </Layout>
 );
 
 export default IndexPage
 
+
+
+
+
+// const IndexPage = () => (
+//   <Layout>
+//     <SEO title="Home"/>
+//     <Clock/>
+//
+//     <StaticClock date={process.env.MY_VAR_ENV}/>
+//   </Layout>
+// )
