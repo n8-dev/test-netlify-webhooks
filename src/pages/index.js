@@ -8,6 +8,7 @@ import StaticClock from "../components/StaticClock";
 const IndexPage = () => (
     <Layout>
         <SEO title="Home"/>
+        <p>This should always have been deployed no longer than 15mins ago.</p>
         <Clock/>
 
         <StaticClock />
